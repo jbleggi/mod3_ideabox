@@ -1,7 +1,7 @@
 import Card from '../Card/Card.js';
 import './Ideas.css';
 
-function Ideas({ ideas, deleteIdea }){
+function Ideas( { ideas, deleteIdea } ){
 
   const ideaCards = ideas.map(idea => {
     return (

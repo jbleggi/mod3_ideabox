@@ -18,8 +18,7 @@ function App(){
   }
 
   function deleteIdea(id){
-    console.log(id);
-    const filteredIdeas = ideas.filter(idea => idea.id !== id)
+    const filteredIdeas = ideas.filter(idea => idea.id !== id);
     setIdeas(filteredIdeas)
   }
 
