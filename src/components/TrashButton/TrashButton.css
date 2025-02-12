@@ -1,0 +1,22 @@
+/* Style for the button */
+.trash_button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Style for the icon inside the button */
+.trash_icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Add hover effect to scale the icon */
+.trash_button:hover .trash_icon {
+  transform: scale(1.1);
+}
