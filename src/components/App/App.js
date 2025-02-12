@@ -26,7 +26,7 @@ function App(){
   return(
     <main className='App'>
         <h1>IdeaBox</h1>
-        <p>Ideas go here:</p>
+        <p>Let's add some ideas!</p>
         <Form addIdea={addIdea}/>
         <Ideas ideas={ideas} deleteIdea={deleteIdea}/>
     </main>
